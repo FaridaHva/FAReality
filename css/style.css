@@ -45,7 +45,9 @@ body {
   background: rgba(0, 0, 0, 0.7);
   content: "";
 }
-
+.menu-1 li a{
+  font-size: 50px;
+}
 a {
   color: #3498db;
   -webkit-transition: 0.5s;
