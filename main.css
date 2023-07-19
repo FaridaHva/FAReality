@@ -2,6 +2,7 @@ body {
     background-color: rgb(186, 210, 243);
     color: #fff;
     font-family: "Lato", sans-serif;
+    
   }
   
   .sidenav {
@@ -70,4 +71,14 @@ body {
     max-height: 100px; 
 
     margin-right: 10px;
+  }
+
+  #mySidenav {
+    /* ... Your existing styles ... */
+    z-index: 2; /* Add this to make sure the menu is above the AR button */
+  }
+  
+  /* Add this style to increase the z-index of the menu button */
+  span[onclick="openNav()"] {
+    z-index: 3;
   }

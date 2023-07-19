@@ -6,7 +6,7 @@ import { RGBELoader } from 'three/addons/loaders/RGBELoader.js'
 
 var container;
 var camera, scene, renderer;
-// var controller;
+var controller;
 
 var reticle, pmremGenerator, current_object, controls, isAR, envmap;
 
@@ -81,7 +81,7 @@ function init() {
   camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.001, 200 );
 
   var directionalLight = new THREE.DirectionalLight(0xdddddd, 1);
-  directionalLight.position.set(0, 1, 0).normalize();
+  directionalLight.position.set(0, 0, 1).normalize();
   scene.add(directionalLight);
 
   var ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
