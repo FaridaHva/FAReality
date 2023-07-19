@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js ar - hit test</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "./build/three.module.js",
+					"three/addons/": "./jsm/"
+				}
+			}
+		</script>
+		<div id="content">
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="ar-item">
+				<div class="ar-item-content">
+				  <img class="ar-item-image" src="furnitures/BB_017/BB_017a.jpg" alt="Item 1">
+				  <a class="ar-object" id="1" href="#">AV Cabinet</a>
+				</div>
+			  </div>
+			  <div class="ar-item">
+				<div class="ar-item-content">
+				  <img class="ar-item-image" src="furnitures/BB_018/BB_018a.jpg" alt="Item 1">
+				  <a class="ar-object" id="2" href="#">Flora Sofa</a>
+				</div>
+			  </div>
+			  <div class="ar-item">
+				<div class="ar-item-content">
+				  <img class="ar-item-image" src="furnitures/BB_022/BB_022crend.jpg" alt="Item 1">
+				  <a class="ar-object" id="3" href="#">Drawer Cabinet</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	
+			<div id="container" style="position: fixed;"></div>
+			  
+			<span style="font-size:30px;cursor:pointer;position: absolute;" onclick="openNav()">&#9776; open</span>
+		
+			<button type="button" id="place-button" style="color: black;">PLACE</button>
+		</div>
+
+		  
+		<script>
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "250px";
+			}
+			
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			}
+			</script>
+			<script type="module" src="js/code.js"></script>
+	</body>
+</html>

@@ -3,7 +3,6 @@ class ARButton {
 	static createButton( renderer, sessionInit = {} ) {
 
 		const button = document.createElement( 'button' );
-		button.classList.add('ar-button');
 
 		function showStartAR( /*device*/ ) {
 
@@ -78,11 +77,10 @@ class ARButton {
 			button.style.display = '';
 
 			button.style.cursor = 'pointer';
-			button.style.left = '250px';
-			button.style.width = '200px';
-			
+			button.style.left = '20px';
+			button.style.width = '100px';
 
-			button.textContent = 'START NOW';
+			button.textContent = 'START AR';
 
 			button.onmouseenter = function () {
 
@@ -117,7 +115,7 @@ class ARButton {
 			button.style.display = '';
 
 			button.style.cursor = 'auto';
-			button.style.left = 'calc(50% - 75px)';
+			button.style.left = '20px';
 			button.style.width = '150px';
 
 			button.onmouseenter = null;
