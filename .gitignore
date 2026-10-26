@@ -1,1 +1,11 @@
 node_modules/
+.data/
+.env*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+# Blender autosaves
+*.blend1
+apps/web/public/models/
+tools/blender/dist/
+__pycache__/

@@ -1,0 +1,26 @@
+{
+  "name": "@fareality/db",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./schema": "./src/schema.ts"
+  },
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "tsx --env-file=../../.env src/migrate.ts",
+    "seed": "tsx --env-file=../../.env src/seed.ts",
+    "typecheck": "tsc --noEmit",
+    "dev-server": "tsx --env-file=../../.env src/dev-server.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.4",
+    "postgres": "^3.4.9"
+  },
+  "devDependencies": {
+    "@fareality/asset-pipeline": "*",
+    "drizzle-kit": "^0.31.11",
+    "embedded-postgres": "^18.4.0-beta.17"
+  }
+}

@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f4f1ec;
+  --color-surface: #ffffff;
+  /* Warm grey behind products, like a photo studio sweep. */
+  --color-tile: #e8e3da;
+  --color-ink: #16150f;
+  --color-muted: #6f6a60;
+  --color-line: #ddd7cc;
+  /* Brand cobalt, a brighter take on the logo blue. */
+  --color-accent: #2447e0;
+  --color-accent-dark: #1a35b0;
+  --color-accent-soft: #e3e8fc;
+  --color-accent-light: #9db0ff;
+  --color-whatsapp: #1fb855;
+}
+
+@theme inline {
+  --font-sans: var(--font-onest), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: white;
+}
+
+/* The 3D stage: a soft spotlight over a faint measuring grid. */
+.stage {
+  background-color: var(--color-tile);
+  background-image:
+    radial-gradient(ellipse 70% 60% at 50% 45%, rgb(255 255 255 / 0.85), transparent 75%),
+    linear-gradient(to right, rgb(22 21 15 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(22 21 15 / 0.05) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    32px 32px,
+    32px 32px;
+  background-position: center;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+model-viewer {
+  --poster-color: transparent;
+  --progress-bar-color: var(--color-accent);
+  --progress-bar-height: 2px;
+}
+
+/* Dimension overlay drawn over the model (see ModelViewer). */
+.dim-dot {
+  display: none;
+}
+.dim-label {
+  position: absolute;
+  width: max-content;
+  transform: translate3d(-50%, -50%, 0);
+  pointer-events: none;
+  border-radius: 999px;
+  background: var(--color-ink);
+  color: white;
+  padding: 3px 9px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.4;
+  box-shadow: 0 0 0 1.5px rgb(255 255 255 / 0.9);
+}
+.dim-casing {
+  stroke: rgb(255 255 255 / 0.85);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+}
+.dim-line {
+  stroke: var(--color-ink);
+  stroke-width: 1.25;
+  stroke-dasharray: 3 3;
+}
+.dim-cap {
+  fill: var(--color-ink);
+  stroke: white;
+  stroke-width: 1.5;
+}
+.dim-hidden {
+  display: none;
+}

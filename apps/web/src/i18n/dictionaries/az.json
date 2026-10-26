@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "description": "Azərbaycan mebel şirkətlərinin məhsullarını 3D-də gör və telefonunla real ölçüdə öz otağında yoxla."
+  },
+  "nav": {
+    "catalog": "Kataloq",
+    "how": "Necə işləyir",
+    "business": "Biznes üçün",
+    "cta": "Şirkətlər üçün"
+  },
+  "hero": {
+    "eyebrow": "3D · AR · Real ölçü",
+    "title": "Almadan əvvəl evində gör.",
+    "subtitle": "Mebeli 3D-də fırlat, telefonunla real ölçüdə otağına qoy və sığıb-sığmadığını yoxla.",
+    "primary": "Kataloqa bax",
+    "secondary": "Necə işləyir?",
+    "featured": "Seçilmiş məhsul"
+  },
+  "how": {
+    "title": "Üç addımda",
+    "steps": [
+      {
+        "title": "Seç",
+        "text": "Kataloqdan bəyəndiyin mebeli tap və 3D-də hər tərəfdən bax."
+      },
+      {
+        "title": "Otağında yoxla",
+        "text": "Telefonunla məhsulu real ölçüdə otağına qoy. Sığıb-sığmadığını dərhal görəcəksən."
+      },
+      {
+        "title": "Şirkətlə danış",
+        "text": "WhatsApp və ya zənglə birbaşa şirkətə yaz. Vasitəçi yoxdur."
+      }
+    ]
+  },
+  "catalog": {
+    "title": "Kataloq",
+    "all": "Hamısı",
+    "empty": "Bu kateqoriyada hələ məhsul yoxdur.",
+    "fit": {
+      "toggle": "Yerimə sığanlar",
+      "hint": "Boş yerinin ölçüsünü yaz — yalnız ora sığan məhsulları göstərək.",
+      "width": "En",
+      "depth": "Dərinlik",
+      "height": "Hündürlük",
+      "clear": "Təmizlə",
+      "count": "{count} məhsul sığır",
+      "none": "Bu ölçüyə sığan məhsul yoxdur."
+    }
+  },
+  "business": {
+    "eyebrow": "Mebel şirkətləri üçün",
+    "title": "Kataloqunuzu 3D və AR-a çeviririk.",
+    "subtitle": "Müştəriləriniz məhsulu evində görəndə daha inamla qərar verir.",
+    "models": {
+      "title": "Real ölçüdə 3D modellər",
+      "text": "CAD fayllarından, fotolardan və ya skanerdən. Hər model məhsulun real ölçüsünə uyğunlaşdırılır."
+    },
+    "link": {
+      "title": "Bir link — hər yerdə",
+      "text": "Saytınızda, Instagram-da və WhatsApp-da paylaşın. iPhone və Android-də işləyir.",
+      "chips": [
+        "Sayt",
+        "Instagram",
+        "WhatsApp"
+      ]
+    },
+    "qr": {
+      "title": "Showroom üçün QR",
+      "text": "Qiymət etiketindəki QR kodu skan edən müştəri məhsulu evində görür."
+    },
+    "qa": {
+      "title": "Hər model yoxlanılır",
+      "text": "Yayımdan əvvəl avtomatik və əl ilə yoxlama.",
+      "checks": [
+        "Real ölçü",
+        "Düzgün istiqamət",
+        "Sıxılmış fayl",
+        "Texniki yoxlama"
+      ]
+    },
+    "cta": "Bizimlə əlaqə"
+  },
+  "product": {
+    "priceOnRequest": "Qiymət sorğu ilə",
+    "dimensions": "Ölçülər",
+    "width": "En",
+    "depth": "Dərinlik",
+    "height": "Hündürlük",
+    "viewInRoom": "Otağında bax",
+    "dragHint": "Fırlatmaq üçün sürüşdür",
+    "fullscreen": "Tam ekran",
+    "trueToSize": "Model real ölçüdədir",
+    "whatsapp": "WhatsApp ilə yaz",
+    "whatsappMessage": "Salam! Bu məhsulla maraqlanıram: {name} — {url}",
+    "call": "Zəng et",
+    "contactNote": "Sifariş, çatdırılma və quraşdırma şirkətlə birbaşa razılaşdırılır.",
+    "seller": "Satıcı",
+    "qrTitle": "Telefonunla otağında bax",
+    "qrText": "Kameranı QR koda tut — məhsul real ölçüdə otağında görünəcək.",
+    "moreFrom": "{company} — digər məhsullar",
+    "no3d": "3D hazırlanır"
+  },
+  "company": {
+    "products": "Məhsullar"
+  },
+  "embed": {
+    "poweredBy": "FAReality ilə"
+  },
+  "notFound": {
+    "title": "Səhifə tapılmadı",
+    "text": "Axtardığın səhifə silinib və ya heç vaxt olmayıb.",
+    "back": "Kataloqa qayıt"
+  },
+  "footer": {
+    "tagline": "Azərbaycan mebeli, 3D və AR-da.",
+    "explore": "Bölmələr",
+    "language": "Dil",
+    "rights": "Bütün hüquqlar qorunur."
+  },
+  "labels": {
+    "title": "Showroom etiketləri",
+    "hint": "A4 kağıza çap edin və ya PDF kimi yadda saxlayın. Kəsik xətlər üzrə kəsin.",
+    "print": "Çap et",
+    "scan": "Telefonunla skan et — otağında bax"
+  }
+}
