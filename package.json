@@ -1,0 +1,29 @@
+{
+  "name": "fareality",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "npm run dev -w web",
+    "build": "npm run build -w web",
+    "lint": "npm run lint -w web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "db:start": "npm run dev-server -w @fareality/db",
+    "db:generate": "npm run generate -w @fareality/db",
+    "db:migrate": "npm run migrate -w @fareality/db",
+    "db:seed": "npm run seed -w @fareality/db",
+    "assets": "npm run cli -w @fareality/asset-pipeline --",
+    "blender:test": "${BLENDER:-blender} -b --factory-startup --python-exit-code 1 --python tools/blender/tests/test_checks.py",
+    "blender:build": "mkdir -p tools/blender/dist && ${BLENDER:-blender} --command extension build --source-dir tools/blender/fareality_export --output-dir tools/blender/dist"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
