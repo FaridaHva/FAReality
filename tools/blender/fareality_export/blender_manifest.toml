@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "fareality_export"
+version = "0.1.0"
+name = "FAReality Export"
+tagline = "Check and export furniture models for FAReality"
+maintainer = "FAReality"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+# Code using Blender's Python API is GPL-compatible by requirement.
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Write the exported GLB file"
