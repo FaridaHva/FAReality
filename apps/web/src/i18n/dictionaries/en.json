@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "description": "See furniture from Azerbaijani companies in 3D and try it in your own room at real size."
+  },
+  "nav": {
+    "catalog": "Catalog",
+    "how": "How it works",
+    "business": "For business",
+    "cta": "For companies"
+  },
+  "hero": {
+    "eyebrow": "3D · AR · True to size",
+    "title": "See it at home before you buy.",
+    "subtitle": "Spin furniture in 3D, place it in your room at real size with your phone, and check that it fits.",
+    "primary": "Browse the catalog",
+    "secondary": "How does it work?",
+    "featured": "Featured"
+  },
+  "how": {
+    "title": "Three steps",
+    "steps": [
+      {
+        "title": "Choose",
+        "text": "Find a piece you like in the catalog and look at it from every side in 3D."
+      },
+      {
+        "title": "Try it in your room",
+        "text": "Place it in your room at real size with your phone. You'll see right away whether it fits."
+      },
+      {
+        "title": "Talk to the company",
+        "text": "Message or call the company directly on WhatsApp. No middleman."
+      }
+    ]
+  },
+  "catalog": {
+    "title": "Catalog",
+    "all": "All",
+    "empty": "Nothing in this category yet.",
+    "fit": {
+      "toggle": "Fits my space",
+      "hint": "Enter the size of your free space — we'll only show what fits.",
+      "width": "Width",
+      "depth": "Depth",
+      "height": "Height",
+      "clear": "Clear",
+      "count": "{count} fit",
+      "none": "Nothing fits that space yet."
+    }
+  },
+  "business": {
+    "eyebrow": "For furniture companies",
+    "title": "We bring your catalog into 3D and AR.",
+    "subtitle": "Customers decide with more confidence once they've seen a piece at home.",
+    "models": {
+      "title": "True-to-size 3D models",
+      "text": "From CAD files, photos or scans. Every model is fitted to the product's real dimensions."
+    },
+    "link": {
+      "title": "One link, everywhere",
+      "text": "Share it on your website, Instagram and WhatsApp. Works on iPhone and Android.",
+      "chips": [
+        "Website",
+        "Instagram",
+        "WhatsApp"
+      ]
+    },
+    "qr": {
+      "title": "QR codes for showrooms",
+      "text": "Customers scan the QR on the price tag and see the piece in their own home."
+    },
+    "qa": {
+      "title": "Every model is checked",
+      "text": "Automated and manual review before anything goes live.",
+      "checks": [
+        "Real size",
+        "Correct orientation",
+        "Compressed file",
+        "Technical validation"
+      ]
+    },
+    "cta": "Get in touch"
+  },
+  "product": {
+    "priceOnRequest": "Price on request",
+    "dimensions": "Dimensions",
+    "width": "Width",
+    "depth": "Depth",
+    "height": "Height",
+    "viewInRoom": "View in your room",
+    "dragHint": "Drag to rotate",
+    "fullscreen": "Full screen",
+    "trueToSize": "Model is true to size",
+    "whatsapp": "Message on WhatsApp",
+    "whatsappMessage": "Hello! I'm interested in this product: {name} — {url}",
+    "call": "Call",
+    "contactNote": "Orders, delivery and assembly are arranged directly with the company.",
+    "seller": "Seller",
+    "qrTitle": "See it in your room",
+    "qrText": "Point your phone camera at the QR code — the piece appears in your room at real size.",
+    "moreFrom": "More from {company}",
+    "no3d": "3D coming soon"
+  },
+  "company": {
+    "products": "Products"
+  },
+  "embed": {
+    "poweredBy": "Powered by FAReality"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page was removed, or never existed.",
+    "back": "Back to the catalog"
+  },
+  "footer": {
+    "tagline": "Azerbaijani furniture, in 3D and AR.",
+    "explore": "Explore",
+    "language": "Language",
+    "rights": "All rights reserved."
+  },
+  "labels": {
+    "title": "Showroom labels",
+    "hint": "Print on A4 or save as PDF. Cut along the dashed lines.",
+    "print": "Print",
+    "scan": "Scan with your phone — see it in your room"
+  }
+}
